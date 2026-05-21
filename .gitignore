@@ -3,3 +3,7 @@
 
 # Removing the sqlite database file from version control to avoid conflicts and ensure that each user can have their own local database.
 weather_data.db
+
+# Ignoring Python cache files and compiled bytecode to keep the repository clean and avoid unnecessary files being tracked.
+__pycache__/
+*.pyc
