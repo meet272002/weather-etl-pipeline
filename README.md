@@ -1,6 +1,6 @@
 # weather-etl-pipeline
 
-A beginner-friendly ETL pipeline built with Python that extracts live weather data from the OpenWeather API across multiple Indian cities, transforms and validates it using Pandas, and loads it incrementally into a SQLite database on an automated 30-minute schedule.
+A beginner-friendly ETL pipeline built with Python that extracts live weather data from the OpenWeather API across multiple Indian cities, transforms and validates it using Pandas, and loads it incrementally into a SQLite database on an automated 30-minute schedule(For testing purpose done in seconds).
 
 ---
 
@@ -19,9 +19,8 @@ This project demonstrates core Data Engineering concepts through a real, working
 
 ```
 weather-etl-pipeline/
-├── .env                  # API key + config (never commit this)
+├── .env                  # API key + config (gitignored)
 ├── .gitignore
-├── requirements.txt
 ├── extract.py            # Fetches raw JSON from OpenWeather API
 ├── transform.py          # Cleans and reshapes data with Pandas
 ├── load.py               # Loads DataFrame into SQLite
