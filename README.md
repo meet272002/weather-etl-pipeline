@@ -172,25 +172,6 @@ The pipeline is designed to fail gracefully:
 
 ---
 
-## Roadmap
-
-This project is part of a progressive Data Engineering learning series:
-
-- [x] Project 1 — Weather ETL with SQLite ← you are here
-- [ ] Project 2 — CSV/JSON data cleaning pipeline with Parquet output
-- [ ] Project 3 — Airflow-orchestrated pipeline with Docker
-- [ ] Project 4 — dbt analytics layer on DuckDB
-- [ ] Project 5 — Feature store + ML data pipeline
-- [ ] Project 6 — Kafka streaming + real-time dashboard
-
----
-
-## License
-
-MIT License — free to use, modify, and distribute.
-
----
-
 ## Author
 
 **Meet Gandhi** — MSc Data Science, Dhirubhai Ambani University
