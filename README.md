@@ -55,30 +55,24 @@ git clone https://github.com/your-username/weather-etl-pipeline.git
 cd weather-etl-pipeline
 ```
 
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Get your OpenWeather API key
+### 2. Get your OpenWeather API key
 
 Sign up at [openweathermap.org](https://openweathermap.org/api) and grab your free API key. Note: new keys take up to 10 minutes to activate.
 
-### 4. Create your `.env` file
+### 3. Create your `.env` file
 
 ```bash
 OW_API_KEY=your_api_key_here
 SQLITE_DB_PATH=weather_etl.db
 ```
 
-### 5. Run the pipeline once
+### 4. Run the pipeline once
 
 ```bash
 python pipeline.py
 ```
 
-### 6. Start the scheduler (runs every 30 minutes)
+### 5. Start the scheduler (runs every 30 minutes)
 
 ```bash
 python scheduler.py
